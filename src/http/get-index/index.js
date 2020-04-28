@@ -3,13 +3,18 @@ const { http } = require('@architect/functions')
 
 async function authorized(req) {
   if (req.session.account) {
+    let realCalories = 35
+    let inboxCalories = req.session.account.data.messagesTotal
+    let numberAte = Math.round(inboxCalories / realCalories)
+    console.log(numberAte)
+    console.log(typeof(inboxCalories))
     return {
       html: `
         <form action=/logout method=post>
           <button>logout</button>
         </form>
 
-        <pre>${JSON.stringify( req.session, null, 2 )}</pre>
+        <pre> If emails were calories, your inbox has eaten ${numberAte} Totino's Peperoni Pizza Rolls </pre>
       `
     }
   }
