@@ -1,7 +1,6 @@
+# Serverless Authentication with Google OAuth 2.0 and Node.js
 
-[![Begin build status](https://buildstatus.begin.app/sunny-luf/status.svg)](https://begin.com)
-
-https://learn.begin.com
+$BADGE
 
 ## Deploy your own
 
@@ -11,14 +10,14 @@ Deploy your own clone of this app to Begin!
 
 ## Getting started
 
+- Install dependencies: `npm install`
 - Start the local dev server: `npm start`
-- Build the code: `npm run build`
-- Lint your code: `npm run lint` (after you've installed a linter, of course)
-- Run your tests: `npm t` (don't forget to write some!)
+
 
 ## Reference
 
 - [Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
 - [Creating new routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
+- [Learn.begin.com](https://learn.begin.com) - in-depth guides on building serverless applications
 
-Head to [docs.begin.com](https://docs.begin.com/) to learn more!
+Head to [docs.begin.com](https://docs.begin.com/) for more information!

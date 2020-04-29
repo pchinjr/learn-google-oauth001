@@ -1,13 +1,12 @@
 {
-  "name": "begin-app",
+  "name": "begin-google-oauth",
   "version": "1.0.0",
-  "description": "A Begin app with the minimum necessary file structure",
+  "description": "A Begin example app with Google OAuth 2.0",
   "scripts": {
-    "start": "sandbox",
-    "lint": "eslint src --fix"
+    "start": "sandbox"
   },
+  "license": "Apache-2.0",
   "dependencies": {
-    "@architect/sandbox": "^1.5.8",
-    "eslint": "^6.8.0"
+    "@architect/sandbox": "^1.5.8"
   }
 }
